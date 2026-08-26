@@ -83,6 +83,11 @@ section h1 {
 .section_item {
     height: 10vw;
     margin: 0 4em 4em 4em;
+    transform: none;
+}
+
+.section_item:hover {
+    transform: scale(1.1) translateY(-20px);
 }
 
 .section_item img {
